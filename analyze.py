@@ -12,12 +12,12 @@ BLUE = '\033[94m'
 YELLOW = '\033[93m'
 RESET = '\033[0m'
 
-INPUT_TRIPS = "all_trips2.parquet"
-INPUT_STATIONS = "all_stations.parquet"
+INPUT_TRIPS = "dataset/all_trips.parquet"
+INPUT_STATIONS = "dataset/all_stations.parquet"
 
 def main():
   parser = argparse.ArgumentParser(description='Script description')
-  parser.add_argument('input', help='Input file or value')
+  # parser.add_argument('input', help='Input file or value')
   args = parser.parse_args()
 
   trips_df = pd.read_parquet(INPUT_TRIPS)
@@ -29,4 +29,4 @@ def main():
 # def avg_dist_and_duration(df):
 
 if __name__ == '__main__':
-  main()
+   main()
