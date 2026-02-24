@@ -1,0 +1,17 @@
+*.parquet
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.env
+venv/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS
+.DS_Store
