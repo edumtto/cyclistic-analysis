@@ -5,3 +5,4 @@ pyarrow
 jupyterlab
 matplotlib
 seaborn
+folium
